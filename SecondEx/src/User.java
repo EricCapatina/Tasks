@@ -13,6 +13,12 @@ public class User implements Serializable
         this.userName = userName;
     }
 
+    @Override
+    public String toString()
+    {
+        return firstName + " " + lastName + " " + userName;
+    }
+
 
 
 
