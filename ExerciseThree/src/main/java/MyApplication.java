@@ -41,8 +41,8 @@ public class MyApplication implements Runnable
             if(firstName == null || lastName == null || userName == null)
             {
                 System.err.print("Wrong command call! Please check '-help' options\n" +
-                                 "Command '-showTasks' requires 3 arguments!\n" +
-                                 "Example: '-showTasks -fn='FirstName' -ln='LastName' -un='UserName'\n");
+                                 "Command '-createUser' requires 3 arguments!\n" +
+                                 "Example: '-createUser -fn='FirstName' -ln='LastName' -un='UserName'\n");
             }
             else
             {
